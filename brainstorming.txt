@@ -1,0 +1,88 @@
+WordCamp 2016 Talk brainstorming
+
+code complexity
+
+
+Common software measurements include:
+
+Number of classes and interfaces
+Number of lines of code (https://en.wikipedia.org/wiki/Source_lines_of_code)
+Number of lines of customer requirements
+Program execution time
+Program load time
+Program size (binary)
+Cohesion (https://en.wikipedia.org/wiki/Cohesion_(computer_science))
+Coupling (https://en.wikipedia.org/wiki/Coupling_(computer_programming))
+
+Balanced scorecard
+Bugs per line of code
+Code coverage
+
+Comment density[1]
+Connascent software components
+
+Cyclomatic complexity (McCabe's complexity)
+DSQI (design structure quality index)
+Function Points and Automated Function Points, an Object Management Group standard[2]
+Halstead Complexity
+Instruction path length
+Maintainability index
+
+Robert Cecil Martin's software package metrics
+Weighted Micro Function Points
+CISQ automated quality characteristics measures
+
+
+
+http://www.slideshare.net/ircmaxell/development-by-the-numbers
+
+https://twitter.com/ircmaxell/status/431824638339862528
+
+
+Bio 
+
+Bradley is a Sr. Full Stack Developer at The Boston Globe. Knowledge sharing and career development are major priorities for him. He is a regular attendee at local meetups and enjoys the opportunity when he can give back. When Bradley is not breaking his development environment playing with new software, he can generally be found reading, finding new things to learn, or discussing the finer points of Transformers continuity.
+
+Measuring Code Quality
+
+Code quality is an abstract and often subjective topic.
+How is it possible to define and measure such a concept as the quality of our code?
+Are there existing tools we can leverage to help us gain insight?
+In this talk, we will dig into different concepts such as NPATH, Cyclomatic Complexity and Fanout.
+We'll take a look at some static analysis tools, learn how to interpret their feedback, and integrate them into our own workflow.
+Finally we will apply what we have learned against the WordPress codebase and see how it stacks up.
+This talk is for all levels of developers.
+
+Millions of lines of code
+http://i.imgur.com/5KZdW0n.png
+
+Latest version of Anthony's slides:
+https://docs.google.com/presentation/d/1yWi_FX1KvhjkjHbcTVLwPwvcyKH7CzwOYUohcpnmIzo/edit?usp=sharing
+
+
+
+Local Complexity vs Global Complexity
+	inverse relationship
+	good design balances this
+
+
+Comic Book comparisons?
+
+spider-verse
+	spider-hero class
+		instances
+			spider-man
+			spider-man 2099
+			spider-man Noir
+			spider-man House Of M
+			Spider-girl
+			Spider-woman
+			Spider-woman...2
+			Spider-Gwen
+			Spider-Man MCU
+	Thor
+		Thor
+		Thunderstrike
+		Throg
+		Female Thor
+		Beta Ray Bill
